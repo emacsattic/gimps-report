@@ -1,5 +1,4 @@
-;;; gimps-report.el -  Quickly get individual account results from 
-;;;                        Mersenne PrimeNet Server
+;;; gimps-report.el --- Quickly get individual account results from Mersenne PrimeNet Server
 
 ;; Copyright (C) 2002 Sami Salkosuo
 ;; Author: Sami Salkosuo 
@@ -22,7 +21,7 @@
 ;; Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
 
-;; Commentary:
+;;; Commentary:
 ;;
 ;; Get individual account status from GIMPS (The Great Internet Mersenne Prime Search).
 ;;
@@ -43,7 +42,8 @@
 ;;
 ;; Usage:
 ;; M-x gimps-report
-;; 
+
+;;; Code:
 
 (defvar gimps-report-proxy-host nil
   "HTTP proxy host")
